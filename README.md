@@ -1,17 +1,17 @@
-#mkpasswd
+# mkpasswd [![](https://badge.imagelayers.io/flyinprogrammer/mkpasswd:latest.svg)](https://imagelayers.io/?images=flyinprogrammer/mkpasswd:latest 'Get your own badge on imagelayers.io')
 
 Make it really simple to run the [mkpasswd](https://github.com/rfc1036/whois/blob/next/mkpasswd.c) tool from any host that can run docker.
 
-##Usage:
+## Usage:
 
-####Create password with SHA-512 encrpytion
+#### Create password with SHA-512 encrpytion
 ```
 $ docker run --rm -it flyinprogrammer/mkpasswd
 Password:
 $6$aEu1pEzAHXC6W$7jqA/ybnNyZem05RD9JJAYDw30YMH.tVepha2ecjARP5/h6Ee1KGez9P9Jl/wBGeAS8SBbi4x8OO98XwWZqoC.
 ```
 
-####Getting help
+#### Getting help
 ```
 $ docker run --rm -it flyinprogrammer/mkpasswd -h
 Usage: mkpasswd [OPTIONS]... [PASSWORD [SALT]]
