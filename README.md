@@ -1,4 +1,4 @@
-# mkpasswd [![](https://badge.imagelayers.io/flyinprogrammer/mkpasswd:latest.svg)](https://imagelayers.io/?images=flyinprogrammer/mkpasswd:latest 'Get your own badge on imagelayers.io')
+# mkpasswd [![](https://images.microbadger.com/badges/image/flyinprogrammer/mkpasswd.svg)](http://microbadger.com/images/flyinprogrammer/mkpasswd "Get your own image badge on microbadger.com")
 
 Make it really simple to run the [mkpasswd](https://github.com/rfc1036/whois/blob/next/mkpasswd.c) tool from any host that can run docker.
 
