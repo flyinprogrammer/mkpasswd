@@ -1,7 +1,9 @@
 FROM ubuntu:latest
 MAINTAINER Alan Scherger <flyinprogrammer@gmail.com>
 
-RUN apt-get install -y whois && \
+RUN DEBIAN_FRONTEND=noninteractive && \
+    apt-get update -y && \
+    apt-get install -y whois && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 
 
